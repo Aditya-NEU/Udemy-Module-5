@@ -28,12 +28,23 @@ public class Main {
 //        NumberOfDaysInMonth.isLeapYear(2017);
 //          NumberOfDaysInMonth.isLeapYear(2020);
 
-       NumberOfDaysInMonth.getDaysInMonth(1,2020);
-       NumberOfDaysInMonth.getDaysInMonth(2,2020);
-       NumberOfDaysInMonth.getDaysInMonth(2,2018);
-         NumberOfDaysInMonth.getDaysInMonth(-1,2020);
-         NumberOfDaysInMonth.getDaysInMonth(1,-2020);
+//       NumberOfDaysInMonth.getDaysInMonth(1,2020);
+//       NumberOfDaysInMonth.getDaysInMonth(2,2020);
+//       NumberOfDaysInMonth.getDaysInMonth(2,2018);
+//       NumberOfDaysInMonth.getDaysInMonth(-1,2020);
+//       NumberOfDaysInMonth.getDaysInMonth(1,-2020);
 
+        /**
+         * Exercise 14 displaying addition of odd numbers between a certain range of two numbers.
+         * @param args
+         */
+
+       SumOddRange.sumOdd(1,100);
+       SumOddRange.sumOdd(-1,100);
+       SumOddRange.sumOdd(100,100);
+       SumOddRange.sumOdd(13,13);
+       SumOddRange.sumOdd(100,-100);
+       SumOddRange.sumOdd(100,1000);
 
 
 
