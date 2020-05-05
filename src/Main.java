@@ -39,20 +39,21 @@ public class Main {
          * @param args
          */
 
-       SumOddRange.sumOdd(1,100);
-       SumOddRange.sumOdd(-1,100);
-       SumOddRange.sumOdd(100,100);
-       SumOddRange.sumOdd(13,13);
-       SumOddRange.sumOdd(100,-100);
-       SumOddRange.sumOdd(100,1000);
+//       SumOddRange.sumOdd(1,100);
+//       SumOddRange.sumOdd(-1,100);
+//       SumOddRange.sumOdd(100,100);
+//       SumOddRange.sumOdd(13,13);
+//       SumOddRange.sumOdd(100,-100);
+//       SumOddRange.sumOdd(100,1000);
+        /**
+         * Exercise 15 displaying palindrome number.
+         * @param args
+         */
 
-
-
-
-
-
-
-
+       NumberPalindrome.isPalindrome(-1221);
+       NumberPalindrome.isPalindrome(707);
+       NumberPalindrome.isPalindrome(11212);
+       NumberPalindrome.isPalindrome(-123);
 
 
     }
