@@ -81,9 +81,19 @@ public class Main {
          * @param args
          */
 
-        SharedDigit.hasSharedDigit(12,23);
-        SharedDigit.hasSharedDigit(9,99);
-        SharedDigit.hasSharedDigit(15,55);
+//        SharedDigit.hasSharedDigit(12,23);
+//        SharedDigit.hasSharedDigit(9,99);
+//        SharedDigit.hasSharedDigit(15,55);
+
+        /**
+         * Exercise 19 checks last digits between three numbers if last digit between any two numbers is same then conditions
+         * satisfies.
+         * @param args
+         */
+
+        LastDigitChecker.hasSameLastDigit(41,22,71);
+        LastDigitChecker.hasSameLastDigit(23,32,42);
+        LastDigitChecker.hasSameLastDigit(9,99,999);
 
     }
 }
