@@ -91,9 +91,22 @@ public class Main {
          * @param args
          */
 
-        LastDigitChecker.hasSameLastDigit(41,22,71);
-        LastDigitChecker.hasSameLastDigit(23,32,42);
-        LastDigitChecker.hasSameLastDigit(9,99,999);
+//        LastDigitChecker.hasSameLastDigit(41,22,71);
+//        LastDigitChecker.hasSameLastDigit(23,32,42);
+//        LastDigitChecker.hasSameLastDigit(9,99,999);
+
+        /**
+         * Exercise 20 displays GCD of two numbers.
+         * @param args
+         */
+
+
+        GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
+        GreatestCommonDivisor.getGreatestCommonDivisor(12,30);
+        GreatestCommonDivisor.getGreatestCommonDivisor(9,18);
+        GreatestCommonDivisor.getGreatestCommonDivisor(81,153);
+
+
 
     }
 }
