@@ -72,13 +72,18 @@ public class Main {
          * @param args
          */
 
+//        EvenDigitSum.getEvenDigitSum(123456789);
+//        EvenDigitSum.getEvenDigitSum(252);
+//        EvenDigitSum.getEvenDigitSum(-22);
 
-        EvenDigitSum.getEvenDigitSum(123456789);
-        EvenDigitSum.getEvenDigitSum(252);
-        EvenDigitSum.getEvenDigitSum(-22);
+        /**
+         * Exercise 18 displaying shared digits between two, two digit numbers.
+         * @param args
+         */
 
-
-
+        SharedDigit.hasSharedDigit(12,23);
+        SharedDigit.hasSharedDigit(9,99);
+        SharedDigit.hasSharedDigit(15,55);
 
     }
 }
