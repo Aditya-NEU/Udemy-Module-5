@@ -26,7 +26,7 @@ public class Main {
 //        NumberOfDaysInMonth.isLeapYear(-1600);
 //        NumberOfDaysInMonth.isLeapYear(1600);
 //        NumberOfDaysInMonth.isLeapYear(2017);
-//          NumberOfDaysInMonth.isLeapYear(2020);
+//        NumberOfDaysInMonth.isLeapYear(2020);
 
 //       NumberOfDaysInMonth.getDaysInMonth(1,2020);
 //       NumberOfDaysInMonth.getDaysInMonth(2,2020);
@@ -45,15 +45,29 @@ public class Main {
 //       SumOddRange.sumOdd(13,13);
 //       SumOddRange.sumOdd(100,-100);
 //       SumOddRange.sumOdd(100,1000);
+
         /**
          * Exercise 15 displaying palindrome number.
          * @param args
          */
 
-       NumberPalindrome.isPalindrome(-1221);
-       NumberPalindrome.isPalindrome(707);
-       NumberPalindrome.isPalindrome(11212);
-       NumberPalindrome.isPalindrome(-123);
+//       NumberPalindrome.isPalindrome(-1221);
+//       NumberPalindrome.isPalindrome(707);
+//       NumberPalindrome.isPalindrome(11212);
+//       NumberPalindrome.isPalindrome(-123);
+
+        /**
+         * Exercise 16 displaying the sum of first and last digit.
+         * @param args
+         */
+
+        FirstLastDigitSum.sumFirstAndLastDigit(252);
+        FirstLastDigitSum.sumFirstAndLastDigit(257);
+        FirstLastDigitSum.sumFirstAndLastDigit(0);
+        FirstLastDigitSum.sumFirstAndLastDigit(5);
+        FirstLastDigitSum.sumFirstAndLastDigit(-10);
+
+
 
 
     }
