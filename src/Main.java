@@ -61,11 +61,21 @@ public class Main {
          * @param args
          */
 
-        FirstLastDigitSum.sumFirstAndLastDigit(252);
-        FirstLastDigitSum.sumFirstAndLastDigit(257);
-        FirstLastDigitSum.sumFirstAndLastDigit(0);
-        FirstLastDigitSum.sumFirstAndLastDigit(5);
-        FirstLastDigitSum.sumFirstAndLastDigit(-10);
+//        FirstLastDigitSum.sumFirstAndLastDigit(252);
+//        FirstLastDigitSum.sumFirstAndLastDigit(257);
+//        FirstLastDigitSum.sumFirstAndLastDigit(0);
+//        FirstLastDigitSum.sumFirstAndLastDigit(5);
+//        FirstLastDigitSum.sumFirstAndLastDigit(-10);
+
+        /**
+         * Exercise 17 displaying the sum of even digits in a number.
+         * @param args
+         */
+
+
+        EvenDigitSum.getEvenDigitSum(123456789);
+        EvenDigitSum.getEvenDigitSum(252);
+        EvenDigitSum.getEvenDigitSum(-22);
 
 
 
