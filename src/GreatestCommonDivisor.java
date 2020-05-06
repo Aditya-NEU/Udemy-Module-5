@@ -17,7 +17,6 @@ public class GreatestCommonDivisor {
 
             if(first%i==0 && second%i==0){
                 gcd=i;
-
             }
         }
 

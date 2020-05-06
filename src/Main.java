@@ -101,11 +101,19 @@ public class Main {
          */
 
 
-        GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
-        GreatestCommonDivisor.getGreatestCommonDivisor(12,30);
-        GreatestCommonDivisor.getGreatestCommonDivisor(9,18);
-        GreatestCommonDivisor.getGreatestCommonDivisor(81,153);
+//        GreatestCommonDivisor.getGreatestCommonDivisor(25,15);
+//        GreatestCommonDivisor.getGreatestCommonDivisor(12,30);
+//        GreatestCommonDivisor.getGreatestCommonDivisor(9,18);
+//        GreatestCommonDivisor.getGreatestCommonDivisor(81,153);
 
+        /**
+         * Exercise 21 displays all the factors of a number.
+         * @param args
+         */
+
+        FactorPrinter.printFactors(6);
+        FactorPrinter.printFactors(32);
+        FactorPrinter.printFactors(10);
 
 
     }
