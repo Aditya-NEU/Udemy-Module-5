@@ -111,9 +111,21 @@ public class Main {
          * @param args
          */
 
-        FactorPrinter.printFactors(6);
-        FactorPrinter.printFactors(32);
-        FactorPrinter.printFactors(10);
+//        FactorPrinter.printFactors(6);
+//        FactorPrinter.printFactors(32);
+//        FactorPrinter.printFactors(10);
+
+        /**
+         * Exercise 22 determines if a number is a perfect number or not.
+         * @param args
+         */
+
+        PerfectNumber.isPerfectNumber(6);
+        PerfectNumber.isPerfectNumber(28);
+        PerfectNumber.isPerfectNumber(5);
+        PerfectNumber.isPerfectNumber(-1);
+
+        
 
 
     }
