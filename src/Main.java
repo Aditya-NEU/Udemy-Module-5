@@ -120,12 +120,29 @@ public class Main {
          * @param args
          */
 
-        PerfectNumber.isPerfectNumber(6);
-        PerfectNumber.isPerfectNumber(28);
-        PerfectNumber.isPerfectNumber(5);
-        PerfectNumber.isPerfectNumber(-1);
+//        PerfectNumber.isPerfectNumber(6);
+//        PerfectNumber.isPerfectNumber(28);
+//        PerfectNumber.isPerfectNumber(5);
+//        PerfectNumber.isPerfectNumber(-1);
 
-        
+
+
+//        NumberToWords.getDigitCount(0);
+//        NumberToWords.getDigitCount(123);
+//        NumberToWords.getDigitCount(-12);
+//        NumberToWords.getDigitCount(5200);
+//
+//        System.out.println("__________________________________________________________");
+//        NumberToWords.reverse(-121);
+//        NumberToWords.reverse(1212);
+//        NumberToWords.reverse(1234);
+//        NumberToWords.reverse(100);
+//
+//        System.out.println("_______________________________________________________________");
+
+        NumberToWords.numberToWords(123);
+
+
 
 
     }
