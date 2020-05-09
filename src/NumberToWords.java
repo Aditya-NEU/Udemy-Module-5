@@ -3,18 +3,19 @@ import com.sun.org.apache.bcel.internal.util.ClassStack;
 public class NumberToWords {
 
     public static void numberToWords(int number) {
+
+        System.out.println("_______________________________________________________________");
+        System.out.println("The number that needs to be written in words is "+number);
+
         if (number < 0) {
-            System.out.println("Invalid input");
+            System.out.println("Invalid value");
         }
 
-        int lastDigit;
         int reverseNumber = reverse(number);
-       int digitCount = getDigitCount(number);
+        int digitCount = getDigitCount(number);
 
-        System.out.println(number);
-
-       while(reverseNumber!=0){
-        int newNumber = reverseNumber % 10;
+       while(reverseNumber!=0 || digitCount>0){
+           int newNumber = reverseNumber % 10;
         switch (newNumber) {
             case 0:
                 System.out.println("ZERO");
@@ -49,6 +50,7 @@ public class NumberToWords {
         }
 
         reverseNumber = reverseNumber / 10;
+        digitCount--;
     }
 
 }
@@ -57,13 +59,12 @@ public class NumberToWords {
         int lastDigit;
 
         while(number!=0){
-
             lastDigit=number%10;
             sum=(sum*10)+lastDigit;
             number=number/10;
         }
-    //    System.out.println(sum);
-            return sum;
+     //  System.out.println(sum);
+        return sum;
 
     }
 
@@ -71,7 +72,7 @@ public class NumberToWords {
         int digitCount=0;
 
         if(number<0){
-            System.out.println("Invalid number");
+        //  System.out.println("Invalid number");
             return -1;
         }
 
@@ -80,7 +81,7 @@ public class NumberToWords {
             number=number/10;
         }
 
-     //   System.out.println(digitCount);
+      //  System.out.println(digitCount);
         return digitCount;
     }
 
