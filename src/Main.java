@@ -160,11 +160,20 @@ public class Main {
 //          FlourPacker.canPack(-3,2,12);
 
 
-          LargestPrime.getLargestPrime(21);
-         LargestPrime.getLargestPrime(217);
-         LargestPrime.getLargestPrime(0);
-         LargestPrime.getLargestPrime(45);
-          //LargestPrime.getLargestPrime(-1);
+//        LargestPrime.getLargestPrime(21);
+//        LargestPrime.getLargestPrime(217);
+//        LargestPrime.getLargestPrime(0);
+//        LargestPrime.getLargestPrime(45);
+//        LargestPrime.getLargestPrime(-1);
+
+
+        /**
+         * Diagonal star program.
+         */
+
+        DiagonalStar.printSquareStar(5);
+        DiagonalStar.printSquareStar(8);
+
 
     }
 
