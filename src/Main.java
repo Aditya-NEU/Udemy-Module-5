@@ -125,7 +125,10 @@ public class Main {
 //        PerfectNumber.isPerfectNumber(5);
 //        PerfectNumber.isPerfectNumber(-1);
 
-
+        /**
+         * Exercise 23 converting digits to words.
+         * @param args
+         */
 
 //        NumberToWords.getDigitCount(0);
 //        NumberToWords.getDigitCount(123);
@@ -140,14 +143,21 @@ public class Main {
 
 //        System.out.println("_______________________________________________________________");
 
-          NumberToWords.numberToWords(123);
-          NumberToWords.numberToWords(1010);
-          NumberToWords.numberToWords(1000);
-          NumberToWords.numberToWords(-12);
+//          NumberToWords.numberToWords(123);
+//          NumberToWords.numberToWords(1010);
+//          NumberToWords.numberToWords(1000);
+//          NumberToWords.numberToWords(-12);
 
+        /**
+         * Sum of bigBag and smallBag should be equal to the goal and if the sum is greater than goal then the bigBag and
+         * should be less than goal.
+         */
 
-
-
+          FlourPacker.canPack(1,0,4);
+          FlourPacker.canPack(1,0,5);
+          FlourPacker.canPack(0,5,4);
+          FlourPacker.canPack(2,2,11);
+          FlourPacker.canPack(-3,2,12);
 
     }
 }
