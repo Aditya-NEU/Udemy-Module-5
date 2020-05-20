@@ -153,11 +153,21 @@ public class Main {
          * should be less than goal.
          */
 
-          FlourPacker.canPack(1,0,4);
-          FlourPacker.canPack(1,0,5);
-          FlourPacker.canPack(0,5,4);
-          FlourPacker.canPack(2,2,11);
-          FlourPacker.canPack(-3,2,12);
+//          FlourPacker.canPack(1,0,4);
+//          FlourPacker.canPack(1,0,5);
+//          FlourPacker.canPack(0,5,4);
+//          FlourPacker.canPack(2,2,11);
+//          FlourPacker.canPack(-3,2,12);
+
+
+          LargestPrime.getLargestPrime(21);
+         LargestPrime.getLargestPrime(217);
+         LargestPrime.getLargestPrime(0);
+         LargestPrime.getLargestPrime(45);
+          //LargestPrime.getLargestPrime(-1);
 
     }
+
+
+
 }
