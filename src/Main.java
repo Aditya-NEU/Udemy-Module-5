@@ -1,3 +1,5 @@
+import jdk.internal.util.xml.impl.Input;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -148,7 +150,7 @@ public class Main {
 //          NumberToWords.numberToWords(1000);
 //          NumberToWords.numberToWords(-12);
 
-        /**
+        /** Exercise 25
          * Sum of bigBag and smallBag should be equal to the goal and if the sum is greater than goal then the bigBag and
          * should be less than goal.
          */
@@ -167,12 +169,21 @@ public class Main {
 //        LargestPrime.getLargestPrime(-1);
 
 
-        /**
+        /** Exercise 26
          * Diagonal star program.
          */
 
-        DiagonalStar.printSquareStar(5);
-        DiagonalStar.printSquareStar(8);
+//        DiagonalStar.printSquareStar(5);
+//        DiagonalStar.printSquareStar(8);
+
+
+        /**
+         * Exercise 27
+         * Input calculator
+         */
+
+        InputCalculator.inputThenPrintSumAndAverage();
+
 
 
     }
