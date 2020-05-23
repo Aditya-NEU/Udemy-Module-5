@@ -1,4 +1,8 @@
 import jdk.internal.util.xml.impl.Input;
+import sun.java2d.pipe.SpanIterator;
+
+import java.awt.*;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -182,7 +186,24 @@ public class Main {
          * Input calculator
          */
 
-        InputCalculator.inputThenPrintSumAndAverage();
+     //   InputCalculator.inputThenPrintSumAndAverage();
+
+//        PaintJob.getBucketCount(-3.4,2.1,1.5,2);
+//        PaintJob.getBucketCount(3.4,2.1,1.5,2);
+//        PaintJob.getBucketCount(2.75,3.25,2.5,1);
+
+//        PaintJob.getBucketCount(-3.4,2.1,1.5);
+//        PaintJob.getBucketCount(3.4,2.1,1.5);
+//        PaintJob.getBucketCount(7.25,4.3,2.35);
+
+        /**
+         * Exercise 28
+         * Paint job 
+         */
+
+        PaintJob.getBucketCount(3.4,1.5);
+        PaintJob.getBucketCount(6.26,2.2);
+        PaintJob.getBucketCount(3.26,0.75);
 
 
 
