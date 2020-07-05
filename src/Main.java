@@ -198,7 +198,7 @@ public class Main {
 
         /**
          * Exercise 28
-         * Paint job 
+         * Paint job
          */
 
         PaintJob.getBucketCount(3.4,1.5);
